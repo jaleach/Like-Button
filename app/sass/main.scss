@@ -1,0 +1,16 @@
+.container{
+  width: 500px;
+
+  margin: 25px auto;
+}
+
+button{
+  width:  300px;
+  transition: 0.5s linear all;
+  background: grey;
+  border-radius: 40px;
+}
+button.ng-invalid{
+  background: red;
+  color: white;
+}

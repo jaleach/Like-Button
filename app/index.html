@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Like Me Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/vendor/normalize.css">
+  <link rel="stylesheet" href="css/vendor/foundation.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="TheButton">
+
+  <div class="container" ng-controller = "LikeController">
+
+  <form>
+  <h3>Show me how many like me</h3>
+
+  <button ng-click = "theLike()">{{ likes() }} </button>
+
+    <!-- <button ng-click ="count = count + 1" ng-init="count=0" > <span>
+      Likes: {{count}}
+    </span> </button>
+ -->
+
+  </form>
+
+
+
+  </div>
+
+  <!-- VENDOR -->
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/underscore.js"></script>
+  <script src="js/vendor/angular.js"></script>
+
+  <!-- MAIN -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
