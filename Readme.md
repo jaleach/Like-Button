@@ -1,6 +1,6 @@
 ## Like Button
 
-> Assignment like me button
+> Assignment like me button built with Angular
 
 
 ## Usage
